@@ -8,7 +8,7 @@ import Loader from 'react-loader-spinner'
 
 import Header from '../Header'
 import SimilarJobCard from '../SimilarJobCard'
-
+import Footer from '../Footer'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import './index.css'
 
@@ -226,6 +226,7 @@ class JobItemDetails extends Component {
       <div className="job-details-page">
         <Header />
         {this.renderJobDetailsPage()}
+        <Footer/>
       </div>
     )
   }

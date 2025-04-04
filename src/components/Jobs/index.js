@@ -7,6 +7,7 @@ import Header from '../Header'
 import ProfileDetails from '../ProfileDetails'
 import FiltersGroup from '../FiltersGroup'
 import JobCard from '../JobCard'
+import Footer from '../Footer'
 
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import './index.css'
@@ -254,6 +255,7 @@ class Jobs extends Component {
             {this.renderJobsBasedOnAPiStatus()}
           </div>
         </div>
+        <Footer/>
       </div>
     )
   }
