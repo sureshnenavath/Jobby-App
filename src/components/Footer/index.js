@@ -11,10 +11,7 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-left">
           <h2>Suresh Nenavath</h2>
-          <p>B.Tech CSE @ JNTUH | React Dev | ML & Blockchain Enthusiast</p>
-          <p className="footer-projects">
-            Projects: SmartFalcon, student-app, Road Damage Detection System
-          </p>
+          <p>B.Tech CSE @ Siddhartha Institute of Engineering and Technology | React Dev | ML & Data Science Enthusiast</p>
         </div>
 
         <div className="footer-right">

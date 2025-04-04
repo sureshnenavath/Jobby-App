@@ -15,31 +15,33 @@ const Header = props => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <Link to="/">
-          <img
-            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt="website logo"
-            className="home-website-logo"
-          />
-        </Link>
-        <ul className="nav-items">
-          <li>
+        <div>
+          <Link to="/">
+            <img
+              src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+              alt="website logo"
+              className="home-website-logo"
+            />
+          </Link>
+        </div>
+        <div className="nav-items">
+          <div>
             <Link to="/" className="nav-link-lg">
               Home
             </Link>
             <Link to="/" className="nav-link-sm">
               <AiFillHome className="small-header-icons" />
             </Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link to="/jobs" className="nav-link-lg">
               Jobs
             </Link>
             <Link to="/jobs" className="nav-link-sm">
               <BsFillBriefcaseFill className="small-header-icons" />
             </Link>
-          </li>
-          <li className="logout-btn-list-item-small">
+          </div>
+          <div className="logout-btn-list-item-small">
             <button
               type="button"
               className="logout-button-sm"
@@ -47,8 +49,8 @@ const Header = props => {
             >
               <FiLogOut className="logout-icon-sm" />
             </button>
-          </li>
-        </ul>
+          </div>
+        </div>
         <button
           type="button"
           className="logout-button-lg"
